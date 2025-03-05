@@ -1,7 +1,10 @@
-let pass = "hello123";
+let pass = "admin";
 let input = prompt("nhap pass");
-if (input == pass) {
-    console.log("ok");
-} else {
-    console.log("sai mk roi");
+for (let i = 1; i <= 3; i++){
+    if (input == pass) {
+        console.log("ok");
+        break;
+    } else {
+        console.log("sai mk roi");
+    }
 }
